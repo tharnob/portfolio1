@@ -1,0 +1,319 @@
+/* HEADER */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px;
+    
+}
+
+/* #logo{
+    font-family: 'Akronim', cursive;
+} */
+
+li{ 
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 18px 26px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+li a:hover{
+    background-color: rgb(165, 161, 161);
+    color: white;
+}
+
+
+/* BODY */
+
+
+div.intro{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: #F6F5F5;
+    margin: 0;
+    padding: 0;
+    
+}
+
+div.bigImage{
+    position: absolute;
+    top: 5px;
+    right: 33%;
+    
+
+    z-index: 1;
+
+}
+
+.bigImage img{
+    height: 347px;
+    width: 250px;
+}
+
+div.part{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 80%;
+    background-color:#E1DEDE;
+   
+}
+.intro p{
+    margin: 0;
+    padding: 2px;
+
+}
+
+.name{
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+#hire{
+    background-color: #F6F5F5;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px 15px;
+    
+
+}
+
+#hire:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#cv{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+
+}
+#cv:hover{
+    background-color: #F6F5F5;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 40%;
+    width: 90%;
+    bottom: 8px;
+    left: 45px;
+    border-radius: 10px;
+    box-shadow: 5px black;
+    
+
+}
+
+
+.pic{
+    width: 40%;
+    height: 100%;
+    
+    float: left;
+    border-radius: 10px;
+}
+
+.picBorder{
+    height: 175px;
+    width: 135px;
+    border: 5px solid black;
+    margin: 20px 5px 25px 80px;
+
+}
+
+.picBorder img{
+    height: 175px;
+    width: 135px;
+    margin-bottom: 5px;
+
+}
+
+.details{
+    width: 60%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+
+
+
+/* services */
+
+.services{
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 100%;
+    display: block;
+}
+
+.services .details{
+
+    width: 50%;
+    margin-left: 50px;
+    
+    
+}
+
+.boxes{
+    
+    margin-left: 25%;
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    
+    
+}
+
+.box1,.box2,.box3{
+    background-color: black;
+    height: 200px;
+    width: 15%;
+    float: left;
+    border-radius: 5px;
+    margin-left: 20px;
+ 
+}
+
+.number{
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+.box-title{
+    color: white;
+    text-align: center;
+}
+
+.boxes p{
+    color: white;
+    text-align: center;
+    
+}
+
+.read_more{
+    display: block;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/*QUESTIONS*/
+
+.question{
+    height: 150px;
+    background-color: black;
+    
+}
+
+.question p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.question a{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 110px;
+    height: 20px;
+    padding: 5px;
+    
+}
+
+
+/*FOOTER*/
+
+.footer{
+    height: 200px;
+    background-color: #F6F5F5;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright{
+    display: block;
+    margin-top: 25px;
+}
+
+.footer img{
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+/*LOGO*/
+
+.logo img{
+    height: 25px;
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    right: 0px;
+}
+#one{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+#two{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+#three{
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+#four{
+    position: absolute;
+    top: 170px;
+    right: 0;
+}
+
